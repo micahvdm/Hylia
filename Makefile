@@ -34,7 +34,7 @@ endif
 # Set build and link flags
 
 BASE_FLAGS = -Wall -Wextra -pipe -MD -MP
-BASE_OPTS  = -mtune=cortex-a53 -Ofast -ffast-math -mtune=generic -msse -msse2 -mfpmath=sse -fdata-sections -ffunction-sections
+BASE_OPTS  = -mtune=cortex-a53 -Ofast -ffast-math -fdata-sections -ffunction-sections
 
 ifeq ($(NOOPT),true)
 # No optimization flags
